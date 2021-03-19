@@ -9,9 +9,9 @@ function Tweetbox() {
       <div className="tweetBox__input">
         <Avatar src=""></Avatar>
         <input placeholder="What is up?" type="text"></input>
-        {/* <input placeholder="etner image URL" type=""></input> */}
+        <input className="tweetBox__imageInput" placeholder="Optional: Enter image" type="text"></input>
       </div>
-      <Button>Tweet</Button>
+      <Button className="tweetBox__tweetButton">Tweet</Button>
       </form>
     </div>
   )
