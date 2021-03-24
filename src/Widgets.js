@@ -18,12 +18,12 @@ function Widget() {
 
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="kshrez"
+          screenName="twitter"
           options={{ height: 400 }}
         />
 
         <TwitterShareButton
-          url={"https://www.facebook.com/kevin.shrestha.9/"}
+          url={"https://www.facebook.com/kevin.shrestha.9"}
           options={{ text: "#reactjs is awesome", via: ""}}
         />
       </div>
